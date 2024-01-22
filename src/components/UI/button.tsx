@@ -14,7 +14,7 @@ const Button= ({classN , children ,width="w-full", ...rest}:Iprops)=> {
 
 
     return (
-<button className={`${classN} ${width} flex-1 rounded-sm p-1 my-2 text-white`  } {...rest}> {children}</button>
+<button className={`${classN} ${width} flex-1 rounded-md p-1 my-2 text-white`  } {...rest}> {children}</button>
     );
 };
     export default Button;
